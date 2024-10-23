@@ -29,5 +29,4 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
   });
 
 // Disable deprecated Mongoose methods
-mongoose.set('strictQuery', false);
 mongoose.set('useFindAndModify', false);
