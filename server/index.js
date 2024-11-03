@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 // Database Connection
-const CONNECTION_URL = 'mongodb+srv://mongo:1234@fullstack.duvvdgy.mongodb.net/?retryWrites=true&w=majority&appName=fullstack';
+const CONNECTION_URL = 'mongodb+srv://mongo:0000@fullstack.duvvdgy.mongodb.net/?retryWrites=true&w=majority&appName=fullstack';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
